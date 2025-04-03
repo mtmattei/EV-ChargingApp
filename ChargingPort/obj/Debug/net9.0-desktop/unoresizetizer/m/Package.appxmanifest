@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap rescap">
+  <Identity Name="com.companyname.ChargingPort" Publisher="O=O=ChargingPort" Version="1.0.0.1" />
+  <Properties>
+    <DisplayName>ChargingPort</DisplayName>
+    <PublisherDisplayName>O=ChargingPort</PublisherDisplayName>
+    <Logo>Assets\Icons\iconStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="$targetentrypoint$">
+      <uap:VisualElements DisplayName="ChargingPort" Description="ChargingPort powered by Uno Platform." BackgroundColor="#000000" Square150x150Logo="Assets\Icons\iconMediumTile.png" Square44x44Logo="Assets\Icons\iconLogo.png">
+        <uap:DefaultTile ShortName="ChargingPort" Wide310x150Logo="Assets\Icons\iconWideTile.png" Square71x71Logo="Assets\Icons\iconSmallTile.png" Square310x310Logo="Assets\Icons\iconLargeTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="splash_screen.png" BackgroundColor="#ffffff" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+</Package>

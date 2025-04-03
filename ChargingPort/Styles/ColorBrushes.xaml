@@ -1,0 +1,15 @@
+<ResourceDictionary xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <!-- Theme-based SolidColorBrushes derived from ColorPaletteOverride.xaml -->
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{ThemeResource PrimaryColor}" />
+    <SolidColorBrush x:Key="OnPrimaryBrush" Color="{ThemeResource OnPrimaryColor}" />
+    <SolidColorBrush x:Key="PrimaryContainerBrush" Color="{ThemeResource PrimaryContainerColor}" />
+    <SolidColorBrush x:Key="OnPrimaryContainerBrush" Color="{ThemeResource OnPrimaryContainerColor}" />
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{ThemeResource SecondaryColor}" />
+    <SolidColorBrush x:Key="OnSecondaryBrush" Color="{ThemeResource OnSecondaryColor}" />
+    <SolidColorBrush x:Key="SecondaryContainerBrush" Color="{ThemeResource SecondaryContainerColor}" />
+    <SolidColorBrush x:Key="OnSecondaryContainerBrush" Color="{ThemeResource OnSecondaryContainerColor}" />
+    <SolidColorBrush x:Key="TertiaryBrush" Color="{ThemeResource TertiaryColor}" />
+    <SolidColorBrush x:Key="OnTertiaryBrush" Color="{ThemeResource OnTertiaryColor}" />
+    <SolidColorBrush x:Key="TertiaryContainerBrush" Color="{ThemeResource TertiaryContainerColor}" />
+    <SolidColorBrush x:Key="OnTertiaryContainerBrush" Color="{ThemeResource OnTertiaryContainerColor}" />
+</ResourceDictionary>

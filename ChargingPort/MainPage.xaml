@@ -1,0 +1,90 @@
+<Page xmlns:ut="using:Uno.Themes"
+      x:Class="ChargingPort.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:local="using:ChargingPort"
+      xmlns:models="using:ChargingPort.Models"
+      xmlns:converters="using:ChargingPort.Converters"
+      xmlns:utu="using:Uno.Toolkit.UI"
+      mc:Ignorable="d"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid >
+          <Grid Background="{ThemeResource BackgroundColor}" RowDefinitions="Auto,280,Auto,*,60">
+                <Grid Height="50" ColumnDefinitions="50,*,50">
+                      <Button HorizontalAlignment="Center" BorderThickness="0" Background="Transparent" Style="{StaticResource AccentButtonStyle}" Grid.Column="0">
+                            <FontIcon Foreground="{ThemeResource PrimaryColor}" Glyph="" />
+                      </Button>
+                      <Button BorderThickness="0" Background="Transparent" Style="{StaticResource AccentButtonStyle}" Grid.Column="2">
+                            <FontIcon Foreground="{ThemeResource PrimaryColor}" Glyph="" />
+                      </Button>
+                      <TextBlock Foreground="{ThemeResource PrimaryColor}" Style="{StaticResource HeaderTextStyle}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Text="Current Charge"/>
+                </Grid>
+                <Grid Background="{ThemeResource PrimaryColor}" RowDefinitions="Auto,Auto,Auto" Grid.Row="1">
+                      <Border CornerRadius="16" Padding="16,8" Margin="0,16" HorizontalAlignment="Center" Background="{ThemeResource SurfaceVariantColor}">
+                            <StackPanel Spacing="2" Orientation="Horizontal">
+                                  <TextBlock Foreground="{ThemeResource PrimaryColor}" Text="{x:Bind Path=ViewModel.BatteryStatus.Percentage, Mode=OneWay}"/>
+                                  <TextBlock Foreground="{ThemeResource PrimaryColor}" Text="%"/>
+                            </StackPanel>
+                      </Border>
+                      <Grid Margin="0,0,0,12" Row="1">
+                            <Ellipse StrokeThickness="4" Stroke="{ThemeResource OnPrimaryColor}" Fill="Transparent" Width="140" Height="140" />
+                            <ProgressRing Value="{x:Bind Path=ViewModel.BatteryStatus.Percentage, Mode=OneWay}" Foreground="{ThemeResource SurfaceVariantColor}" Background="Transparent" IsIndeterminate="False" Width="140" Height="140" />
+                            <Image Source="ms-appx:///Assets/car.png" Width="160" Height="160" />
+                      </Grid>
+                      <TextBlock Foreground="{ThemeResource OnPrimaryColor}" Style="{StaticResource BodySmall}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Text="Est. 2h 15m until full"/>
+                </Grid>
+                <Grid Margin="18,18,18,12" ColumnDefinitions="*,Auto" Grid.Row="2">
+                      <StackPanel VerticalAlignment="Center" Spacing="12" Orientation="Horizontal">
+                            <SymbolIcon Symbol="MapPin" />
+                            <TextBlock Style="{StaticResource SubheaderTextStyle}" Text="Nearby Charging Stations"/>
+                      </StackPanel>
+                      <Button Background="{ThemeResource PrimaryColor}" Grid.Column="1">
+                            <StackPanel Spacing="4" Orientation="Horizontal">
+                                  <FontIcon Glyph="" />
+                                  <TextBlock VerticalAlignment="Center" Text="Filter"/>
+                            </StackPanel>
+                            <Button.Flyout>
+                            <MenuFlyout>
+                            <MenuFlyoutItem Text="Closest">
+                            <ut:ControlExtensions.Icon>
+                                  <FontIcon Glyph="" /></ut:ControlExtensions.Icon>
+                            </MenuFlyoutItem>
+                                  <MenuFlyoutItem Text="Fastest Charge" />
+                                  <MenuFlyoutItem Text="Lowest Price" />
+                                  <MenuFlyoutItem Text="Most availability" />
+                            </MenuFlyout>
+                            </Button.Flyout>
+                      </Button>
+                </Grid>
+                <ListView ItemTemplate="{StaticResource ChargingStationTemplate}" ItemsSource="{x:Bind Path=ViewModel.ChargingStations, Mode=OneWay}" Margin="18,18,18,12" Grid.Row="3" />
+                <utu:TabBar Background="{ThemeResource SurfaceColor}" Grid.Row="4">
+                    <utu:TabBarItem Content="Charging">
+                        <utu:TabBarItem.Icon>
+                            <FontIcon Glyph="" Foreground="{ThemeResource PrimaryColor}"/>
+                        </utu:TabBarItem.Icon>
+                    </utu:TabBarItem>
+                    <utu:TabBarItem Content="Map">
+                        <utu:TabBarItem.Icon>
+                            <FontIcon Glyph="" Foreground="{ThemeResource OutlineColor}"/>
+                        </utu:TabBarItem.Icon>
+                    </utu:TabBarItem>
+
+                    <utu:TabBarItem Content="Vehicle">
+                        <utu:TabBarItem.Icon>
+                            <FontIcon Glyph="" Foreground="{ThemeResource OutlineColor}"/>
+                        </utu:TabBarItem.Icon>
+                    </utu:TabBarItem>
+
+                    <utu:TabBarItem Content="Home">
+                        <utu:TabBarItem.Icon>
+                            <FontIcon Glyph="" Foreground="{ThemeResource OutlineColor}"/>
+                        </utu:TabBarItem.Icon>
+                    </utu:TabBarItem>
+                </utu:TabBar>
+          </Grid>
+    </Grid>
+</Page>

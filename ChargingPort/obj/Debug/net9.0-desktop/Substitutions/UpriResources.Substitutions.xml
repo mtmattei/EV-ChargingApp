@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="ChargingPort" feature="UPRI_en" featurevalue="false">
+    <resource name="Strings.en.Resources.upri" action="remove" />
+  </assembly>
+</linker>

@@ -1,0 +1,155 @@
+is_global = true
+build_property.PackageReferenceProperty = Uno.WinUI,Uno.Resizetizer,Uno.Sdk.Extras,Uno.Settings.DevServer,Uno.UI.HotDesign,Uno.WinUI.DevServer,Uno.UI.Adapter.Microsoft.Extensions.Logging,Microsoft.Extensions.Logging.Console,Uno.Toolkit.WinUI,Uno.Toolkit.WinUI.Material,Uno.Material.WinUI,CommunityToolkit.Mvvm,Uno.Fonts.OpenSans,Uno.Extensions.Core.WinUI,Uno.WinUI.Lottie,SkiaSharp.Views.Uno.WinUI,SkiaSharp.Skottie,Uno.WinUI.Graphics2DSK,Uno.WinUI.Runtime.Skia.Linux.FrameBuffer,Uno.WinUI.Runtime.Skia.MacOS,Uno.WinUI.Runtime.Skia.Wpf,Uno.WinUI.Runtime.Skia.X11
+build_property.ProjectReferenceProperty = 
+build_property.UnoSdkVersion = 5.6.51
+build_property.HotDesignUnoAssets = 
+build_property.UnoExtensionsGeneration_DisableDynamicallyAccessedMembersAttribute = 
+build_property.UnoExtensionsGeneration_DisableMaybeNullAttribute = 
+build_property.UnoExtensionsGeneration_DisableMaybeNullWhenAttribute = 
+build_property.UnoExtensionsGeneration_DisableMemberNotNullAttribute = 
+build_property.UnoExtensionsGeneration_DisableMemberNotNullWhenAttribute = 
+build_property.UnoExtensionsGeneration_DisableNotNullIfNotNullAttribute = 
+build_property.UnoExtensionsGeneration_DisableNotNullWhenAttribute = 
+build_property.UnoExtensionsGeneration_DisableMetadataUpdateHandlerAttribute = 
+build_property.UnoExtensionsGeneration_DisableCreateNewOnMetadataUpdateAttribute = 
+build_property.UnoExtensionsGeneration_DisableIsExternalInit = 
+build_property.UnoExtensionsGeneration_DisableMetadataUpdateOriginalTypeAttribute = 
+build_property.UnoExtensionsGeneration_DisableModuleInitializerAttribute = 
+build_property.XamlSourceGeneratorTracingFolder = 
+build_property.TargetFramework = net9.0-desktop
+build_property.TargetFramework = net9.0-desktop
+build_property.ProjectTypeGuidsProperty = 
+build_property.MSBuildProjectFullPath = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\ChargingPort.csproj
+build_property.RootNamespace = ChargingPort
+build_property.RootNamespace = ChargingPort
+build_property.DefineConstantsProperty = TRACE,DISABLE_XAML_GENERATED_BREAK_ON_UNHANDLED_EXCEPTION,DEBUG,NET,NET9_0,NETCOREAPP,HAS_UNO,HAS_UNO_WINUI,WINUI_WINDOWING,UNO_HAS_FRAMEWORKELEMENT_MEASUREOVERRIDE,UNO_HAS_NO_IDEPENDENCYOBJECT,UNO_REFERENCE_API,HAS_UNO_SKIA,HAS_UNO_SKIA_X11,UNO_REFERENCE_API,HAS_UNO_SKIA,HAS_UNO_SKIA_WPF,UNO_REFERENCE_API,HAS_UNO_SKIA,HAS_UNO_SKIA_MACOS,UNO_REFERENCE_API,HAS_UNO_SKIA,HAS_UNO_SKIA_LINUX_FB,DESKTOP,DESKTOP1_0,NET5_0_OR_GREATER,NET6_0_OR_GREATER,NET7_0_OR_GREATER,NET8_0_OR_GREATER,NET9_0_OR_GREATER,NETCOREAPP1_0_OR_GREATER,NETCOREAPP1_1_OR_GREATER,NETCOREAPP2_0_OR_GREATER,NETCOREAPP2_1_OR_GREATER,NETCOREAPP2_2_OR_GREATER,NETCOREAPP3_0_OR_GREATER,NETCOREAPP3_1_OR_GREATER,DESKTOP1_0_OR_GREATER
+build_property.Configuration = Debug
+build_property.IntermediateOutputPath = obj\Debug\net9.0-desktop\
+build_property.AndroidApplication = 
+build_property.OutputType = Exe
+build_property.MSBuildProjectName = ChargingPort
+build_property.BuildingProject = False
+build_property.DesignTimeBuild = True
+build_property.UnoUISourceGeneratorDebuggerBreak = 
+build_property.BuildingInsideVisualStudio = 
+build_property.UnoPlatformIDE = rider
+build_property.IsHotReloadHost = 
+build_property.UnoGenerateXamlSourcesProvider = 
+build_property.UnoForceHotReloadCodeGen = 
+build_property.UnoForceIncludeProjectConfiguration = 
+build_property.UnoForceIncludeServerProcessorsConfiguration = 
+build_property.IsUnoHead = true
+build_property.IsUnoHead = true
+build_property.UnoDisableHotRestartHelperGeneration = 
+build_property.RuntimeIdentifier = 
+build_property.UnoRuntimeIdentifier = Skia
+build_property.UnoHotReloadMode = 
+build_property.SolutionFileName = ChargingPort.sln
+build_property.LangName = 
+build_property.LangID = 
+build_property.SolutionDir = C:\Users\Platform006\RiderProjects\ChargingPort\
+build_property.SolutionExt = .sln
+build_property.UseHostCompilerIfAvailable = true
+build_property.DefineExplicitDefaults = 
+build_property.Platform = AnyCPU
+build_property.SolutionPath = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort.sln
+build_property.SolutionName = ChargingPort
+build_property.VSIDEResolvedNonMSBuildProjectOutputs = 
+build_property.DevEnvDir = *Undefined*
+build_property.MSBuildVersion = 17.13.13
+build_property.UseWPF = 
+build_property.UnoRemoteControlPort = 61565
+build_property.UnoRemoteControlHost = 
+build_property.UnoRemoteControlProcessorsPath = C:\Users\Platform006\.nuget\packages\uno.winui.devserver\5.6.91\buildTransitive\../tools/rc/processors
+build_property.UnoRemoteControlConfigCookie = 
+build_property.UnoHotReloadDiagnosticsLogPath = 
+build_property.AppendRuntimeIdentifierToOutputPath = true
+build_property.OutputPath = bin\Debug\net9.0-desktop\
+build_property.UnoDisableBindableTypeProvidersGeneration = 
+build_property.ShouldWriteErrorOnInvalidXaml = 
+build_property.IsUiAutomationMappingEnabled = 
+build_property.ShouldAnnotateGeneratedXaml = 
+build_property.DefaultLanguage = en
+build_property.UnoPlatformTelemetryOptOut = 
+build_property.UnoPlatformDefaultSymbolsFontFamily = ms-appx:///Uno.Fonts.Fluent/Fonts/uno-fluentui-assets.ttf
+build_property.ExcludeXamlNamespacesProperty = win,not_mux,android,ios,wasm,macos,not_skia
+build_property.IncludeXamlNamespacesProperty = xamarin,not_win,legacy,skia,netstdref,not_ios,not_android,not_macos,not_wasm
+build_property.XamlGeneratorAnalyzerSuppressionsProperty = csharp-618 // Ignore obsolete members warnings,csharp-105 // Ignore duplicate namespaces,csharp-1591 // Ignore missing XML comment warnings,csharp-CS8669 // Ignore annotation for nullable reference types,csharp-CS9113 // Parameter is unread
+build_property.UnoEnableXamlFuzzyMatching = 
+build_property.UnoXamlResourcesTrimming = 
+build_property.BaseIntermediateOutputPath = obj\
+build_property.AssemblyName = ChargingPort
+build_property.UnoDefaultFont = OpenSans
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = false
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,desktop
+build_property.ProjectDir = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Platform006/RiderProjects/ChargingPort/ChargingPort/MainPage.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\MainPage.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\MainPage.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/ChargingPort/ChargingPort/Resources/ChargingStationTemplate.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\Resources\ChargingStationTemplate.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\Resources\ChargingStationTemplate.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/ChargingPort/ChargingPort/Styles/AppStyles.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\Styles\AppStyles.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\Styles\AppStyles.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/ChargingPort/ChargingPort/Styles/ColorBrushes.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\Styles\ColorBrushes.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\Styles\ColorBrushes.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/ChargingPort/ChargingPort/Styles/ColorPaletteOverride.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = Page
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\Styles\ColorPaletteOverride.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\Styles\ColorPaletteOverride.xaml
+build_metadata.AdditionalFiles.XamlRuntime = 
+
+[C:/Users/Platform006/RiderProjects/ChargingPort/ChargingPort/App.xaml]
+build_metadata.AdditionalFiles.SourceItemGroup = ApplicationDefinition
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\App.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\App.xaml
+build_metadata.AdditionalFiles.XamlRuntime = WinUI
+
+[C:/Users/Platform006/RiderProjects/ChargingPort/ChargingPort/Strings/en/Resources.resw]
+build_metadata.AdditionalFiles.SourceItemGroup = PRIResource
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.FullPath = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\Strings\en\Resources.resw
+build_metadata.AdditionalFiles.Identity = C:\Users\Platform006\RiderProjects\ChargingPort\ChargingPort\Strings\en\Resources.resw
+build_metadata.AdditionalFiles.XamlRuntime = 
